@@ -1,4 +1,7 @@
 # while 문
+from fcntl import DN_DELETE
+
+
 num = 1
 while num <= 100: # num가 100 이하일 때 까지 반복
     print(num)
@@ -19,3 +22,4 @@ for (first, last) in list2 :
 합격인지 불합격인지 결과를 보여 주시오.
 """
 
+print
